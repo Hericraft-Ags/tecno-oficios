@@ -106,8 +106,15 @@
         <h2 data-aos="fade-down" class="text-center" style="font-size: 2.5rem; margin-bottom: 4rem;">Catálogo de Cursos Destacados</h2>
         
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
-            <!-- Se pueden agregar más cursos reutilizando el componente course-card.php aquí -->
+            <CourseCard 
+            title="Vue desde cero" 
+            description="Aprende Vue paso a paso"
+            />
         </div>
     </div>
 </section>
 </template>
+
+<script setup>
+import CourseCard from '../components/CourseCard.vue'
+</script>
