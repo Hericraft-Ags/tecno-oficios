@@ -1,57 +1,111 @@
 <template>
 <!-- Hero Section -->
-<section class="hero-glow-container text-center" style="padding: 8rem 0; overflow: hidden; position: relative;">
-    <div class="container" style="position: relative; z-index: 2;">
-        <h1 data-aos="fade-down" style="font-size: 3.5rem; margin-bottom: 1.5rem; color: var(--color-blue-dark); max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.2;">
-            Domina un Oficio con <br/><span style="color: var(--color-blue); text-shadow: var(--shadow-glow);">Tecnología de Simulación</span>
-        </h1>
-        <p data-aos="fade-up" data-aos-delay="200" style="font-size: 1.25rem; color: var(--color-text-muted); max-width: 600px; margin: 0 auto 3rem; line-height: 1.8;">
-            Capacitación híbrida 100% online con certificación presencial SEP-CONOCER. La industria requiere expertos.
-        </p>
-        <div data-aos="zoom-in" data-aos-delay="400" style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
-            <a href="#" class="btn-glass btn-glow-pulse" style="padding: 1.2rem 2.5rem; font-size: 1.2rem;">
-                <i class="fas fa-laptop-code" style="margin-right: 10px;"></i> Probar Simulador
-            </a>
-            <a href="#cursos" class="btn-primary" style="padding: 1.2rem 2.5rem; font-size: 1.2rem; background-color: var(--color-blue-dark);">Ver Catálogo</a>
-        </div>
+<section class="hero-glow-container text-center py-32 overflow-hidden relative">
+  <div class="container relative z-[2]">
+    <h1 
+      data-aos="fade-down"
+      class="text-[3.5rem] mb-6 text-[var(--color-blue-dark)] max-w-[800px] mx-auto leading-[1.2]"
+    >
+      Domina un Oficio con <br/>
+      <span class="text-[var(--color-blue)] [text-shadow:var(--shadow-glow)]">
+        Tecnología de Simulación
+      </span>
+    </h1>
+    <p 
+      data-aos="fade-up" 
+      data-aos-delay="200"
+      class="text-[1.25rem] text-[var(--color-text-muted)] max-w-[600px] mx-auto mb-12 leading-[1.8]"
+    >
+      Capacitación híbrida 100% online con certificación presencial SEP-CONOCER. La industria requiere expertos.
+    </p>
+    <div 
+      data-aos="zoom-in" 
+      data-aos-delay="400"
+      class="flex gap-6 justify-center flex-wrap"
+    >
+      <a 
+        href="#" 
+        class="btn-glass btn-glow-pulse px-[2.5rem] py-[1.2rem] text-[1.2rem]"
+      >
+        <i class="fas fa-laptop-code mr-[10px]"></i> 
+        Probar Simulador
+      </a>
+      <a 
+        href="#cursos" 
+        class="btn-primary px-[2.5rem] py-[1.2rem] text-[1.2rem] bg-[var(--color-blue-dark)]"
+      >
+        Ver Catálogo
+      </a>
     </div>
+  </div>
 </section>
 
 <!-- Sección SCORM -->
-<section id="metodologia" class="py-12" style="background-color: transparent;">
-    <div class="container text-center">
-        <h2 data-aos="fade-up" style="font-size: 2.5rem; margin-bottom: 4rem;">No somos solo videos</h2>
-        
-        <div data-aos="zoom-in-up" data-aos-delay="200" class="monitor-mockup mb-4" style="margin-bottom: 5rem;">
-            <div class="monitor-screen">
-                <!-- Imagen representativa de un simulador industrial -->
-                <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Simulador Técnico SCORM">
-                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                    <div style="width: 80px; height: 80px; background: rgba(164,198,57,0.8); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: white; cursor: pointer; backdrop-filter: blur(5px); box-shadow: var(--shadow-glow);">
-                        <i class="fas fa-play"></i>
-                    </div>
-                </div>
-            </div>
+<section id="metodologia" class="py-12 bg-transparent">
+  <div class="container text-center">
+    <h2 
+      data-aos="fade-up" 
+      class="text-[2.5rem] mb-16"
+    >
+      No somos solo videos
+    </h2>
+    <div 
+      data-aos="zoom-in-up" 
+      data-aos-delay="200" 
+      class="monitor-mockup mb-20"
+    >
+      <div class="monitor-screen relative">
+        <img 
+          src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+          alt="Simulador Técnico SCORM"
+        >
+        <!-- Botón play centrado -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div class="w-20 h-20 bg-[rgba(164,198,57,0.8)] rounded-full flex items-center justify-center text-[2rem] text-white cursor-pointer backdrop-blur-[5px] shadow-[var(--shadow-glow)]">
+            <i class="fas fa-play"></i>
+          </div>
         </div>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; padding-top: 2rem;">
-            <div data-aos="fade-right" data-aos-delay="300" class="card-glass" style="padding: 2.5rem; border-radius: var(--border-radius-lg);">
-                <div style="font-size: 3.5rem; color: var(--color-blue); margin-bottom: 1.5rem; filter: drop-shadow(0 4px 6px rgba(44,110,158,0.3));">
-                    <i class="fas fa-project-diagram"></i>
-                </div>
-                <h3 style="font-size: 1.5rem;">Aprendizaje Interactivo SCORM</h3>
-                <p style="color: var(--color-text-muted); margin-top: 1rem;">Módulos dinámicos que evalúan tu progreso paso a paso, asegurando la retención del conocimiento técnico mediante feedback instantáneo.</p>
-            </div>
-            
-            <div data-aos="fade-left" data-aos-delay="400" class="card-glass" style="padding: 2.5rem; border-radius: var(--border-radius-lg);">
-                <div style="font-size: 3.5rem; color: var(--color-green); margin-bottom: 1.5rem; filter: drop-shadow(0 4px 6px rgba(164,198,57,0.3));">
-                    <i class="fas fa-vr-cardboard"></i>
-                </div>
-                <h3 style="font-size: 1.5rem;">Simuladores de Realidad Técnica</h3>
-                <p style="color: var(--color-text-muted); margin-top: 1rem;">Practica de forma segura en entornos virtuales tipo Blueprint antes de tocar las herramientas reales en tu evaluación presencial.</p>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <!-- GRID -->
+    <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-10 pt-8 mt-24">
+
+      <!-- CARD 1 -->
+      <div 
+        data-aos="fade-right" 
+        data-aos-delay="300" 
+        class="card-glass p-10 rounded-[var(--border-radius-lg)]"
+      >
+        <div class="text-[3.5rem] text-[var(--color-blue)] mb-6 [filter:drop-shadow(0_4px_6px_rgba(44,110,158,0.3))]">
+          <i class="fas fa-project-diagram"></i>
+        </div>
+        <h3 class="text-[1.5rem]">
+          Aprendizaje Interactivo SCORM
+        </h3>
+        <p class="text-[var(--color-text-muted)] mt-4">
+          Módulos dinámicos que evalúan tu progreso paso a paso, asegurando la retención del conocimiento técnico mediante feedback instantáneo.
+        </p>
+      </div>
+      
+      <!-- CARD 2 -->
+      <div 
+        data-aos="fade-left" 
+        data-aos-delay="700" 
+        class="card-glass p-10 rounded-[var(--border-radius-lg)]"
+      >
+        <div class="text-[3.5rem] text-[var(--color-green)] mb-6 [filter:drop-shadow(0_4px_6px_rgba(164,198,57,0.3))]">
+          <i class="fas fa-vr-cardboard"></i>
+        </div>
+        <h3 class="text-[1.5rem]">
+          Simuladores de Realidad Técnica
+        </h3>
+        <p class="text-[var(--color-text-muted)] mt-4">
+          Practica de forma segura en entornos virtuales tipo Blueprint antes de tocar las herramientas reales en tu evaluación presencial.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- Ruta del Alumno (Stepper) -->
@@ -106,9 +160,12 @@
         <h2 data-aos="fade-down" class="text-center" style="font-size: 2.5rem; margin-bottom: 4rem;">Catálogo de Cursos Destacados</h2>
         
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
-            <CourseCard 
-            title="Vue desde cero" 
-            description="Aprende Vue paso a paso"
+            <CourseCard
+            badge="Alineado a CONOCER (EC0324)"
+            title="Instalación de la red hidráulica y sanitaria"
+            includes="Simulador Interactivo Incluido"
+            image="/img/hidraulica.jpg"
+            link="/hidraulic-course"
             />
         </div>
     </div>

@@ -1,8 +1,6 @@
 <template>
     <div class="container header-container">
         <a href="" class="header-logo" data-aos="fade-right">
-            <!-- Si tienes el logo, usa: <img src="assets/img/logo.png" alt="TecnoOficios Lab"> -->
-            <!-- Placeholder en texto con los colores de la marca -->
             <h2 style="margin:0;"><span style="color:var(--color-blue)">Tecno</span><span style="color:var(--color-green)">Oficios</span> Lab</h2>
         </a>
         

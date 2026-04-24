@@ -1,23 +1,46 @@
 <template>
-    <div class="course-card card-glass" data-aos="fade-up" data-aos-delay="100">
-    <img src="" alt="" class="course-card-img">
+  <div class="course-card card-glass transition-all duration-700 ease-out hover:translate-y-[-10px]">
+    
+    <img :src="image" alt="" class="course-card-img">
+
     <div class="course-card-content">
-            <div>
-                <span class="badge badge-conocer">
-                    <i class="fas fa-certificate" style="margin-right: 5px;"></i> Alineado a CONOCER
-                </span>
-            </div>
-        
-        <h3 class="course-card-title"></h3>
-        
-        <div class="mb-4" style="color: var(--color-text-muted); font-size: 0.9rem;">
-            <i class="fas fa-vr-cardboard" style="color: var(--color-blue); margin-right: 5px;"></i>
-            Simulador Interactivo Incluido
-        </div>
-        
-        <a href="" class="btn-primary" style="margin-top: auto; text-align: center; width: 100%;">
-            Ver Detalles del Curso
-        </a>
+
+      <div v-if="showBadge">
+        <span class="badge badge-conocer">
+          <i class="fas fa-certificate mr-[5px]"></i> {{badge}}
+        </span>
+      </div>
+      
+      <h3 class="course-card-title">
+        {{ title }}
+      </h3>
+      
+      <div class="mb-4" style="color: var(--color-text-muted); font-size: 0.9rem;">
+        <i class="fas fa-vr-cardboard text-[var(--color-blue)] mr-[5px]"></i>
+        {{includes}}
+      </div>
+      
+      <router-link 
+        :to="link" 
+        class="btn-primary mt-auto text-center w-full block"
+      >
+        Ver Detalles del Curso
+      </router-link>
+
     </div>
-</div>
+  </div>
 </template>
+
+<script setup>
+defineProps({
+  badge: String,
+  title: String,
+  includes: String,
+  image: String,
+  link: String,
+  showBadge: {
+    type: Boolean,
+    default: true
+  }
+})
+</script>
