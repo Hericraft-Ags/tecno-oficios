@@ -191,6 +191,10 @@ a:hover {
   color: var(--color-blue);
 }
 
+.aulabtn:hover{
+  color: white !important;
+}
+
 /* Footer */
 .footer {
   background-color: var(--color-blue);
@@ -237,24 +241,6 @@ a:hover {
   font-size: 0.875rem;
 }
 
-/* Utilities */
-.text-center {
-  text-align: center;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.py-12 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .bg-light {
   background-color: var(--color-bg);
 }
@@ -263,20 +249,8 @@ a:hover {
   background-color: var(--color-white);
 }
 
-.flex {
-  display: flex;
-}
-
-.items-center {
-  align-items: center;
-}
-
 .gap-2 {
   gap: 0.5rem;
-}
-
-.mt-auto {
-  margin-top: auto;
 }
 
 /* Responsive */
@@ -314,7 +288,6 @@ a:hover {
 
 .card-glass:hover {
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid var(--color-blue);
   box-shadow: 0 12px 40px 0 rgba(44, 110, 158, 0.15);
   transform: translateY(-5px);
 }
