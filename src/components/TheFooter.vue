@@ -14,9 +14,9 @@
             <div>
                 <h3 class="footer-heading">Enlaces Rápidos</h3>
                 <ul class="footer-links">
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="#cursos">Catálogo de Cursos</a></li>
-                    <li><a href="#metodologia">Nuestra Metodología</a></li>
+                    <li><router-link to="/">Inicio</router-link></li>
+                    <li><router-link to="/courses">Catálogo de Cursos</router-link></li>
+                    <li><router-link to="/methodology">Nuestra Metodología</router-link></li>
                     <li><a href="#" onclick="event.preventDefault(); window.open(atob('aHR0cHM6Ly9tb29kbGUudGVjbm9vZmljaW9zLmNvbQ=='), '_blank');">Aula Virtual</a></li>
                 </ul>
             </div>
