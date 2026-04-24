@@ -43,13 +43,7 @@ h6 {
 }
 
 a {
-  text-decoration: none;
-  color: var(--color-blue);
   transition: var(--transition-smooth);
-}
-
-a:hover {
-  color: var(--color-blue-dark);
 }
 
 .container {

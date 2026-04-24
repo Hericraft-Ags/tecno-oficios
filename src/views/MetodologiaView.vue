@@ -104,7 +104,7 @@
 
       <router-link 
         to="/courses"
-        class="px-8 py-4 bg-[var(--color-blue)] text-white rounded-[var(--border-radius-lg)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] transition-all"
+        class="px-8 py-4 bg-[var(--color-blue)] text-white rounded-[var(--border-radius-lg)]"
       >
         Ver Cursos
       </router-link>
