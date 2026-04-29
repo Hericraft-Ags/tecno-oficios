@@ -192,7 +192,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const activeIndex = ref(0) // el primero abierto
+const activeIndex = ref(0)
 
 const toggleAccordion = (index) => {
   activeIndex.value = activeIndex.value === index ? null : index
