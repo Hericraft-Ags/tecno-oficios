@@ -87,20 +87,26 @@
         <div style="max-width: 900px; margin: 0 auto;">
             
             <!-- Módulo 1 -->
-            <div data-aos="fade-up" data-aos-delay="200" class="accordion-item">
-                <div class="accordion-header active" onclick="toggleAccordion(this)">
-                    <div style="display: flex; align-items: center; font-size: 1.25rem;">
-                        <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(44,110,158,0.1); color: var(--color-blue); display: flex; align-items: center; justify-content: center; margin-right: 15px;">
-                            <i class="fas fa-hammer"></i>
-                        </div>
-                        Módulo 1: Habilitación de la instalación
+            <div class="accordion-item">
+                <div 
+                    class="accordion-header"
+                    :class="{ active: activeIndex === 0 }"
+                    @click="toggleAccordion(0)"
+                >
+                    <div class="flex items-center text-[1.25rem]">
+                    <div class="w-10 h-10 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)] flex items-center justify-center mr-[15px]">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    Módulo 1: Habilitación de la instalación
                     </div>
                     <i class="fas fa-chevron-down accordion-icon"></i>
                 </div>
-                <!-- El primer elemento empieza abierto para UX -->
-                <div class="accordion-body" style="max-height: 1000px;">
+                <div 
+                    class="accordion-body"
+                    :style="activeIndex === 0 ? { maxHeight: '1000px' } : { maxHeight: '0px' }"
+                >
                     <div class="accordion-content">
-                        <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Dominarás la preparación previa requerida para cualquier instalación hidráulica o sanitaria, asegurando los cimientos del proyecto a través del trazo y la correcta identificación y preparación de la tubería.</p>
+                    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Dominarás la preparación previa requerida para cualquier instalación hidráulica o sanitaria, asegurando los cimientos del proyecto a través del trazo y la correcta identificación y preparación de la tubería.</p>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
                                 <li><i class="fas fa-check-circle"></i> <span>Trazo de líneas y medición precisa en obra.</span></li>
@@ -116,19 +122,26 @@
             </div>
 
             <!-- Módulo 2 -->
-            <div data-aos="fade-up" data-aos-delay="300" class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div style="display: flex; align-items: center; font-size: 1.25rem;">
-                        <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(164,198,57,0.15); color: var(--color-green-dark); display: flex; align-items: center; justify-content: center; margin-right: 15px;">
-                            <i class="fas fa-wrench"></i>
-                        </div>
-                        Módulo 2: Puesta en marcha
+            <div class="accordion-item">
+                <div 
+                    class="accordion-header"
+                    :class="{ active: activeIndex === 1 }"
+                    @click="toggleAccordion(1)"
+                >
+                    <div class="flex items-center text-[1.25rem]">
+                    <div class="w-10 h-10 rounded-full bg-[rgba(164,198,57,0.15)] text-[var(--color-green-dark)] flex items-center justify-center mr-[15px]">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    Módulo 2: Puesta en marcha
                     </div>
                     <i class="fas fa-chevron-down accordion-icon"></i>
                 </div>
-                <div class="accordion-body">
+                <div 
+                    class="accordion-body"
+                    :style="activeIndex === 1 ? { maxHeight: '1000px' } : { maxHeight: '0px' }"
+                >
                     <div class="accordion-content">
-                        <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Aplica todo lo habilitado para proceder al ensamblaje final, integración de equipos y la exhaustiva verificación de calidad y presiones de la instalación.</p>
+                    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Aplica todo lo habilitado para proceder al ensamblaje final, integración de equipos y la exhaustiva verificación de calidad y presiones de la instalación.</p>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
                                 <li><i class="fas fa-check-circle"></i> <span>Armado estructurado de redes hidráulicas y sanitarias completas.</span></li>
@@ -142,7 +155,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -178,22 +190,14 @@
 
 <!-- Script para Accordion -->
 <script setup>
-function toggleAccordion(element) {
-    const isActive = element.classList.contains('active');
-    
-    // Close all accordions
-    document.querySelectorAll('.accordion-header').forEach(header => {
-        header.classList.remove('active');
-        header.nextElementSibling.style.maxHeight = null;
-    });
+import { ref } from 'vue'
 
-    // If the clicked one wasn't active, open it
-    if (!isActive) {
-        element.classList.add('active');
-        const body = element.nextElementSibling;
-        body.style.maxHeight = body.scrollHeight + "px";
-    }
+const activeIndex = ref(0) // el primero abierto
+
+const toggleAccordion = (index) => {
+  activeIndex.value = activeIndex.value === index ? null : index
 }
+
 </script>
 
 <style>
