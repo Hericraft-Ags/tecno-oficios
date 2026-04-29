@@ -1,5 +1,5 @@
 <template>
-    <div class="container header header-container">
+    <div class="header header-container">
         <router-link to="/" data-aos="fade-right">
         <img 
             src="../assets/logo.png" 

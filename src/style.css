@@ -157,6 +157,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10rem;
 }
 
 .header-container {
