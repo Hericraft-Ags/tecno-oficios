@@ -46,7 +46,7 @@
       <div>
         <img 
           src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1000&q=80"
-          class="rounded-[var(--border-radius-lg)] shadow-[var(--shadow-soft)]"
+          class="rounded-[var(--border-radius-lg)] shadow-[var(--shadow-soft)] transform transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.03]"
         />
       </div>
 
@@ -54,6 +54,7 @@
 
     <!-- PROCESO -->
     <div class="bg-white py-20 px-6">
+      
       <div class="max-w-6xl mx-auto text-center mb-16">
         <h2 class="text-3xl font-bold text-[var(--color-blue-dark)] mb-4">
           Nuestro Proceso
@@ -65,26 +66,68 @@
 
       <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
 
-        <div class="p-8 rounded-[var(--border-radius-lg)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] transition-all">
-          <div class="text-4xl mb-4 text-[var(--color-blue)]">1</div>
-          <h3 class="text-xl font-semibold mb-2">Aprendizaje Digital</h3>
-          <p class="text-[var(--color-text-muted)]">
+        <!-- CARD 1 -->
+        <div class="p-8 rounded-[var(--border-radius-lg)]
+                    border border-gray-300
+                    shadow-[var(--shadow-soft)]
+                    hover:shadow-[var(--shadow-hover)]
+                    transition-all duration-300 ease-out
+                    transform hover:-translate-y-2
+                    bg-white text-center">
+
+          <div class="text-4xl mb-4 text-[var(--color-blue)] flex justify-center">
+            <i class="fas fa-laptop-code mb-1"></i>
+          </div>
+
+          <h3 class="text-xl font-semibold mb-2 text-center">
+            Aprendizaje Digital
+          </h3>
+
+          <p class="text-[var(--color-text-muted)] text-left">
             Accede a contenido interactivo y módulos SCORM desde cualquier lugar.
           </p>
         </div>
 
-        <div class="p-8 rounded-[var(--border-radius-lg)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] transition-all">
-          <div class="text-4xl mb-4 text-[var(--color-green)]">2</div>
-          <h3 class="text-xl font-semibold mb-2">Simulación Técnica</h3>
-          <p class="text-[var(--color-text-muted)]">
+        <!-- CARD 2 -->
+        <div class="p-8 rounded-[var(--border-radius-lg)]
+                    border border-gray-300
+                    shadow-[var(--shadow-soft)]
+                    hover:shadow-[var(--shadow-hover)]
+                    transition-all duration-300 ease-out
+                    transform hover:-translate-y-2
+                    bg-white text-center">
+
+          <div class="text-4xl mb-4 text-[var(--color-green)] flex justify-center">
+            <i class="fas fa-vr-cardboard mb-1"></i>
+          </div>
+
+          <h3 class="text-xl font-semibold mb-2 text-center">
+            Simulación Técnica
+          </h3>
+
+          <p class="text-[var(--color-text-muted)] text-left">
             Practica en entornos virtuales que replican situaciones reales de trabajo.
           </p>
         </div>
 
-        <div class="p-8 rounded-[var(--border-radius-lg)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] transition-all">
-          <div class="text-4xl mb-4 text-[var(--color-blue-dark)]">3</div>
-          <h3 class="text-xl font-semibold mb-2">Evaluación Presencial</h3>
-          <p class="text-[var(--color-text-muted)]">
+        <!-- CARD 3 -->
+        <div class="p-8 rounded-[var(--border-radius-lg)]
+                    border border-gray-300
+                    shadow-[var(--shadow-soft)]
+                    hover:shadow-[var(--shadow-hover)]
+                    transition-all duration-300 ease-out
+                    transform hover:-translate-y-2
+                    bg-white text-center">
+
+          <div class="text-4xl mb-4 text-[var(--color-blue-dark)] flex justify-center">
+            <i class="fas fa-check-circle mb-1"></i>
+          </div>
+
+          <h3 class="text-xl font-semibold mb-2 text-center">
+            Evaluación Presencial
+          </h3>
+
+          <p class="text-[var(--color-text-muted)] text-left">
             Demuestra tus habilidades en un entorno controlado para certificación.
           </p>
         </div>
@@ -104,7 +147,7 @@
 
       <router-link 
         to="/courses"
-        class="px-8 py-4 bg-[var(--color-blue)] text-white rounded-[var(--border-radius-lg)]"
+        class="px-8 py-4 bg-blue-500 text-white rounded-[var(--border-radius-lg)] shadow-[var(--shadow-soft)] transform transition-all duration-300 ease-out hover:text-lime-300"
       >
         Ver Cursos
       </router-link>

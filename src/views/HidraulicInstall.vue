@@ -4,7 +4,7 @@
         <div class="container" style="position: relative; z-index: 2;">
             
             <div data-aos="fade-down" class="badge badge-conocer" style="font-size: 1.1rem; padding: 0.6rem 2rem; margin-bottom: 2rem; display: inline-block; border: 1px solid rgba(164, 198, 57, 0.3);">
-                <i class="fas fa-certificate" style="margin-right: 8px;"></i> Certificación Oficial SEP-CONOCER
+                <i class="fas fa-certificate" style="margin-right: 8px;"></i> Certificación Oficial RED-CONOCER
             </div>
             
             <h1 data-aos="fade-up" data-aos-delay="100" style="font-size: 3.5rem; margin-bottom: 1rem; color: var(--color-blue-dark); max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.2; text-shadow: var(--shadow-glow);">
@@ -177,7 +177,7 @@
 </template>
 
 <!-- Script para Accordion -->
-<script>
+<script setup>
 function toggleAccordion(element) {
     const isActive = element.classList.contains('active');
     

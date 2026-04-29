@@ -166,10 +166,6 @@ a {
   height: 80px;
 }
 
-.header-logo img {
-  height: 40px;
-}
-
 .header-nav {
   display: flex;
   gap: 2rem;
@@ -278,12 +274,6 @@ a {
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
-}
-
-.card-glass:hover {
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 12px 40px 0 rgba(44, 110, 158, 0.15);
-  transform: translateY(-5px);
 }
 
 /* Glow Pulse Animation for Main CTA */
