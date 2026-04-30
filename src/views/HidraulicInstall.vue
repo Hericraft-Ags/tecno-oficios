@@ -95,9 +95,9 @@
                 >
                     <div class="flex items-center text-[1.25rem]">
                     <div class="w-10 h-10 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)] flex items-center justify-center mr-[15px]">
-                        <i class="fas fa-hammer"></i>
+                        <i class="fas fa-file-contract"></i>
                     </div>
-                    Módulo 1: Habilitación de la instalación
+                    Módulo 1: Introducción a la red hidráulica y sanitaria
                     </div>
                     <i class="fas fa-chevron-down accordion-icon"></i>
                 </div>
@@ -106,15 +106,17 @@
                     :style="activeIndex === 0 ? { maxHeight: '1000px' } : { maxHeight: '0px' }"
                 >
                     <div class="accordion-content">
-                    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Dominarás la preparación previa requerida para cualquier instalación hidráulica o sanitaria, asegurando los cimientos del proyecto a través del trazo y la correcta identificación y preparación de la tubería.</p>
+                    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Dominarás la lógica técnica detrás de cada instalación. Aprenderás a leer el lenguaje de los planos, 
+                        calcular presiones y caudales, e identificar los materiales correctos para asegurar que tu proyecto nazca con bases sólidas bajo el estándar EC0324.</p>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Trazo de líneas y medición precisa en obra.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Identificación y manipulación de materiales (cobre, CPVC, polipropileno, PVC).</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Sistemas hidrosanitarios: Diferencias clave entre redes de presión y de gravedad.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Lectura de planos e isométricos: Interpretación experta de planos y simbología técnica.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Física del agua: Controla la presión y el caudal para evitar fallas críticas en la instalación.</span></li>
                             </ul>
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Cuantificación matemática exacta de insumos.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Preparación de tubería: técnicas de corte, doblez experto y generación de cuerdas.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Selección de materiales: Identifica el tubo y la conexión ideal (Cobre, CPVC, PVC, PPR) según la normativa.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Trazo y medición: Aprende a realizar levantamientos precisos y listas de materiales sin desperdicios.</span></li>
                             </ul>
                         </div>
                     </div>

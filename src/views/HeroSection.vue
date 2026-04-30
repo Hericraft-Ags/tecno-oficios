@@ -16,7 +16,7 @@
       data-aos-delay="200"
       class="text-[1.25rem] text-[var(--color-text-muted)] max-w-[600px] mx-auto mb-12 leading-[1.8]"
     >
-      Capacitación híbrida 100% online con certificación presencial RED-CONOCER. La industria requiere expertos CERTIFICADOS.
+      Capacitación híbrida 100% online. Prepara todo tu portafolio y conocimiento para obtener la certificación por la <span class="whitespace-nowrap">RED-CONOCER</span>. La industria requiere expertos CERTIFICADOS.
     </p>
     <div 
       data-aos="zoom-in" 
@@ -100,7 +100,7 @@
         </h3>
 
         <p class="text-[var(--color-text-muted)] mt-4">
-          Practica de forma segura en entornos virtuales tipo Blueprint antes de tocar las herramientas reales en tu evaluación presencial.
+          Practica de forma segura en entornos virtuales tipo Blueprint (planos y esquemas detallados) antes de tocar las herramientas reales en tu evaluación presencial.
         </p>
       </div>
     </div>
@@ -183,7 +183,7 @@
           </h3>
 
           <p class="text-[var(--color-text-muted)] mt-2 text-[1.1rem]">
-            Demuestra tus habilidades en un centro evaluador equipado y obtén tu certificado oficial SEP-CONOCER con validez nacional.
+            Demuestra tus habilidades en un centro evaluador equipado y obtén tu certificado oficial RED-CONOCER con validez nacional.
           </p>
         </div>
       </div>
