@@ -25,7 +25,7 @@
 <!-- Ficha Técnica & Perfil de Egreso -->
 <section class="py-12" style="background: transparent;">
     <div class="container">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 4rem; align-items: center;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 4rem; align-items: start;">
             
             <!-- Ficha Técnica (Glassmorphism) -->
             <div data-aos="fade-right" class="card-glass" style="padding: 2.5rem; border-radius: var(--border-radius-lg);">
