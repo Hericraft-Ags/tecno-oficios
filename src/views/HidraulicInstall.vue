@@ -78,7 +78,10 @@
             <div data-aos="fade-left" data-aos-delay="200" style="display: flex; flex-direction: column; justify-content: center;">
                 <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem; color: var(--color-blue-dark);">Perfil de Egreso</h3>
                 <p style="font-size: 1.2rem; color: var(--color-text-muted); line-height: 1.8; margin-bottom: 2rem;">
-                    El egresado será capaz de desempeñarse como técnico especializado en instalaciones hidrosanitarias, ejecutando proyectos con precisión y conforme a estándares profesionales.
+                    Al finalizar tu formación en TecnoOficios, serás un profesional técnico capaz de transformar un diseño 
+                    isométrico en una realidad operativa. Dominarás con precisión el habilitado de tuberías en diversos materiales 
+                    y ejecutarás instalaciones hidrosanitarias de alta calidad, garantizando la hermeticidad del sistema mediante pruebas t
+                    écnicas oficiales. Estarás plenamente preparado para obtener tu certificación ante la RED CONOCER.
                 </p>
                 <div style="background: rgba(255,255,255,0.6); border-left: 4px solid var(--color-green); padding: 1.5rem; border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0;">
                     <ul class="module-list" style="margin-top: 0; color: var(--color-text-main);">
