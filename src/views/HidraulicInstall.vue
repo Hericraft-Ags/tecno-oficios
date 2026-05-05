@@ -265,7 +265,7 @@
                     <div class="w-10 h-10 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)] flex items-center justify-center mr-[15px]">
                         <i class="fas fa-file-contract"></i>
                     </div>
-                    Módulo 1: Introducción a la red hidráulica y sanitaria
+                        Módulo 1: Introducción a la red hidráulica y sanitaria
                     </div>
                     <i class="fas fa-chevron-down accordion-icon"></i>
                 </div>
@@ -299,10 +299,10 @@
                     @click="toggleAccordion(1)"
                 >
                     <div class="flex items-center text-[1.25rem]">
-                    <div class="w-10 h-10 rounded-full bg-[rgba(164,198,57,0.15)] text-[var(--color-green-dark)] flex items-center justify-center mr-[15px]">
+                    <div class="w-10 h-10 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-green-dark)] flex items-center justify-center mr-[15px]">
                         <i class="fas fa-wrench"></i>
                     </div>
-                    Módulo 2: Puesta en marcha
+                        Módulo 2: Del plano al taller
                     </div>
                     <i class="fas fa-chevron-down accordion-icon"></i>
                 </div>
@@ -311,15 +311,53 @@
                     :style="activeIndex === 1 ? { maxHeight: '1000px' } : { maxHeight: '0px' }"
                 >
                     <div class="accordion-content">
-                    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Aplica todo lo habilitado para proceder al ensamblaje final, integración de equipos y la exhaustiva verificación de calidad y presiones de la instalación.</p>
+                    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Habilitar los materiales y herramientas necesarios para la instalación, aplicando técnicas de corte y unión con precisión y seguridad, bajo los estándares de calidad del EC0324.</p>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Armado estructurado de redes hidráulicas y sanitarias completas.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Conexión técnica e instalación de muebles (WC, lavabo, regadera).</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>La armadura del técnico: Selección y uso correcto del EPP para riesgos químicos y térmicos.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Diagnóstico de herramientas: Inspección y calibración de cortadores, niveles y dados de termofusión.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Arte del habilitado: Técnicas de corte y escariado para asegurar diámetros perfectos.</span></li>
                             </ul>
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Ejecución de pruebas de hermeticidad y presión.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Verificación de funcionamiento, purgado y entrega profesional.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Maestría en uniones: Dominio experto de soldadura, cementado y termofusión.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Orden y residuos: Gestión profesional del área de trabajo y disposición de sobrantes.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Módulo 3-->
+            <div class="accordion-item">
+                <div 
+                    class="accordion-header"
+                    :class="{ active: activeIndex === 2 }"
+                    @click="toggleAccordion(2)"
+                >
+                    <div class="flex items-center text-[1.25rem]">
+                    <div class="w-10 h-10 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-text-main)] flex items-center justify-center mr-[15px]">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                        Módulo 3: El Sistema en marcha
+                    </div>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </div>
+                <div 
+                    class="accordion-body"
+                    :style="activeIndex === 2 ? { maxHeight: '1000px' } : { maxHeight: '0px' }"
+                >
+                    <div class="accordion-content">
+                    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Integrar la red hidrosanitaria y fijar los muebles de baño siguiendo el diseño isométrico, ejecutando pruebas de hermeticidad que garanticen una instalación técnica sin fugas ni errores.</p>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+                            <ul class="module-list mt-0">
+                                <li><i class="fas fa-check-circle"></i> <span>Montaje maestro: Fijación técnica de tuberías y respeto crítico a las pendientes sanitarias.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Instalación de muebles: Montaje y sellado profesional de WC, lavabos y regaderas.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Conexión de equipos: Instalación segura de calentadores y válvulas de alivio.</span></li>
+                            </ul>
+                            <ul class="module-list mt-0">
+                                <li><i class="fas fa-check-circle"></i> <span>Momento de la verdad: Pruebas de hermeticidad y estanqueidad para certificar cero fugas.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Entrega profesional: Elaboración de reportes técnicos y limpieza final de la obra.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span>Simulador de certificación: Para obtener el pase a la evaluación real, el alumno debe completar una Misión Integradora.</span></li>
                             </ul>
                         </div>
                     </div>
