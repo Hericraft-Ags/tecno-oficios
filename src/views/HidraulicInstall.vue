@@ -4,14 +4,14 @@
         <div class="container" style="position: relative; z-index: 2;">
             
             <div data-aos="fade-down" class="badge badge-conocer" style="font-size: 1.1rem; padding: 0.6rem 2rem; margin-bottom: 2rem; display: inline-block; border: 1px solid rgba(164, 198, 57, 0.3);">
-                <i class="fas fa-certificate" style="margin-right: 8px;"></i> Certificación Oficial RED-CONOCER
+                <i class="fas fa-certificate" style="margin-right: 8px;"></i> Prepárate para la certificación oficial RED-CONOCER
             </div>
             
             <h1 data-aos="fade-up" data-aos-delay="100" style="font-size: 3.5rem; margin-bottom: 1rem; color: var(--color-blue-dark); max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.2; text-shadow: var(--shadow-glow);">
                 Instalación de la red hidráulica y sanitaria
             </h1>
             <h2 data-aos="fade-up" data-aos-delay="200" style="font-size: 1.5rem; font-weight: 500; color: var(--color-text-muted); margin-bottom: 3.5rem;">
-                en edificaciones de vivienda (Estándar EC0324)
+                en edificaciones de vivienda (Estándar EC0324). <br><br>Sé el técnico(a) que las constructoras buscan.
             </h2>
             
             <div data-aos="zoom-in" data-aos-delay="300" style="display: flex; justify-content: center;">
@@ -47,13 +47,30 @@
                     </li>
                 </ul>
                 
-                <h4 style="margin-top: 2.5rem; margin-bottom: 1rem; color: var(--color-blue-dark); font-size: 1.2rem;">Herramientas y Equipo</h4>
-                <div style="display: flex; flex-wrap: wrap; gap: 0.6rem;">
-                    <span class="badge" style="background: rgba(44,110,158,0.1); color: var(--color-blue); margin-bottom: 0;">Soplete</span>
-                    <span class="badge" style="background: rgba(44,110,158,0.1); color: var(--color-blue); margin-bottom: 0;">Termofusionadora</span>
-                    <span class="badge" style="background: rgba(44,110,158,0.1); color: var(--color-blue); margin-bottom: 0;">Cortadores</span>
-                    <span class="badge" style="background: rgba(44,110,158,0.1); color: var(--color-blue); margin-bottom: 0;">Niveles</span>
-                    <span class="badge" style="background: rgba(164,198,57,0.15); color: var(--color-green-dark); border: 1px solid rgba(164,198,57,0.3); margin-bottom: 0;">Equipo de seguridad</span>
+                <h4 style="margin-top: 2.5rem; margin-bottom: 1rem; color: var(--color-blue-dark); font-size: 1.2rem; margin-bottom: 1.5rem; border-bottom: 1px solid rgba(44, 110, 158, 0.2);">Perfil del estudiante</h4>
+                <ul style="list-style: none; padding: 0; color: var(--color-text-main);">
+                    <li style="margin-bottom: 1.2rem; display: flex; align-items: center; font-size: 1.1rem;">
+                        <i class="fas fa-clock" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem;"></i>
+                        <span><strong>Técnicos y plomeros:</strong> Que buscan certificar su experiencia con un documento oficial de la RED-CONOCER.</span>
+                    </li>
+                    <li style="margin-bottom: 1.2rem; display: flex; align-items: center; font-size: 1.1rem;">
+                        <i class="fas fa-layer-group" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem;"></i>
+                        <span><strong>Personal de mantenimiento:</strong> Interesados en actualizarse en nuevas tecnologías (PPR/Termofusión).</span>
+                    </li>
+                    <li style="margin-bottom: 1.2rem; display: flex; align-items: flex-start; font-size: 1.1rem;">
+                        <i class="fas fa-check-square" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem; margin-top: 3px;"></i>
+                        <span><strong>Público en general:</strong> Entusiastas que desean aprender desde cero con bases de ingeniería y normatividad nacional para proyectos propios o emprendimiento.</span>
+                    </li>
+                </ul>
+
+                <div style="display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 0.6rem;">
+                    <!-- BOTÓN -->
+                    <button 
+                        @click="showModal = true"
+                        class="px-6 py-3 bg-[var(--color-blue)] text-white rounded-[var(--border-radius-lg)] shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] hover:bg-[var(--color-blue-dark)] hover:-translate-y-1 transition-all duration-300"
+                    >
+                        Ver requerimientos
+                    </button>
                 </div>
             </div>
 
@@ -61,13 +78,15 @@
             <div data-aos="fade-left" data-aos-delay="200" style="display: flex; flex-direction: column; justify-content: center;">
                 <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem; color: var(--color-blue-dark);">Perfil de Egreso</h3>
                 <p style="font-size: 1.2rem; color: var(--color-text-muted); line-height: 1.8; margin-bottom: 2rem;">
-                    El egresado será capaz de realizar funciones de <strong style="color: var(--color-blue);">plomería profesional</strong> de alta calidad, abarcando todas las fases del proyecto con los más altos estándares.
+                    El egresado será capaz de desempeñarse como técnico especializado en instalaciones hidrosanitarias, ejecutando proyectos con precisión y conforme a estándares profesionales.
                 </p>
                 <div style="background: rgba(255,255,255,0.6); border-left: 4px solid var(--color-green); padding: 1.5rem; border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0;">
                     <ul class="module-list" style="margin-top: 0; color: var(--color-text-main);">
-                        <li><i class="fas fa-drafting-compass"></i> <span>Interpretación de planos isométricos y diagramas técnicos.</span></li>
-                        <li><i class="fas fa-boxes"></i> <span>Selección, justificación y cuantificación óptima de materiales.</span></li>
-                        <li><i class="fas fa-medal"></i> <span>Entrega de instalaciones funcionales y garantizadas bajo normas oficiales antes de puesta en marcha.</span></li>
+                        <li><i class="fas fa-medal"></i> <span>Interpretación y transformación de diseños isométricos en instalaciones operativas.</span></li>
+                        <li><i class="fas fa-medal"></i> <span>Habilitado preciso de tuberías en distintos materiales.</span></li>
+                        <li><i class="fas fa-medal"></i> <span>Ejecución de instalaciones hidrosanitarias de alta calidad.</span></li>
+                        <li><i class="fas fa-medal"></i> <span>Aplicación de pruebas técnicas oficiales para garantizar la hermeticidad del sistema.</span></li>
+                        <li><i class="fas fa-medal"></i> <span>Preparación integral para la certificación ante la RED CONOCER.</span></li>
                     </ul>
                 </div>
             </div>
@@ -75,6 +94,152 @@
         </div>
     </div>
 </section>
+
+<!-- Modal -->
+ <transition
+    enter-active-class="transition-all duration-300 ease-out"
+    enter-from-class="opacity-0 scale-90"
+    enter-to-class="opacity-100 scale-100"
+    leave-active-class="transition-all duration-200 ease-in"
+    leave-from-class="opacity-100 scale-100"
+    leave-to-class="opacity-0"
+  >
+<div 
+    v-if="showModal"
+    @click="showModal = false"
+    class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 transition-opacity duration-300"
+>
+    <!-- Caja -->
+    <div 
+    @click.stop
+    class="bg-white rounded-[var(--border-radius-lg)] p-10  w-full max-w-5xl 
+           max-h-[80vh] overflow-y-auto shadow-lg transform transition-all duration-300 scale-95">
+
+        <!-- Botón cerrar -->
+        <button 
+            @click="showModal = false"
+            class="absolute top-3 right-3 text-gray-500 hover:text-black"
+        >
+            ✕
+        </button>
+
+        <!-- Contenido -->
+        <h2 class="text-xl font-bold mb-4 text-[var(--color-blue-dark)]">
+            Equipamiento y requerimientos:
+        </h2>
+
+        <div class="space-y-5">
+
+            <!-- Intro -->
+            <p class="text-center text-[var(--color-text-muted)] text-[1.1rem] max-w-2xl mx-auto leading-relaxed">
+                Para alcanzar la competencia, el alumno(a) dominará el uso y gestión de los siguientes recursos:
+            </p>
+
+
+            <!-- Grid -->
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- CARD 1 -->
+                <div class="p-6 rounded-[var(--border-radius-lg)] border border-gray-200 bg-white 
+                            shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)]
+                            transition-all duration-300 transform hover:-translate-y-1">
+
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)]
+                                flex items-center justify-center text-xl mr-3">
+                    <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="font-semibold text-[var(--color-blue-dark)]">
+                    Sistemas de unión
+                    </h3>
+                </div>
+
+                <ul class="space-y-2 text-sm text-[var(--color-text-muted)]">
+                    <li><strong>Soldadura:</strong> Soplete, gas, soldadura y fundente.</li>
+                    <li><strong>Químicos:</strong> Pegamento PVC/CPVC y limpiador.</li>
+                    <li><strong>Termofusión:</strong> Dados.</li>
+                    <li><strong>Sellado:</strong> Cinta teflón.</li>
+                    <li><strong>Limpieza:</strong> Lija y estopa.</li>
+                </ul>
+                </div>
+
+
+                <!-- CARD 2 -->
+                <div class="p-6 rounded-[var(--border-radius-lg)] border border-gray-200 bg-white 
+                            shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)]
+                            transition-all duration-300 transform hover:-translate-y-1">
+
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)]
+                                flex items-center justify-center text-xl mr-3">
+                    <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="font-semibold text-[var(--color-blue-dark)]">
+                    Herramientas
+                    </h3>
+                </div>
+
+                <ul class="space-y-2 text-sm text-[var(--color-text-muted)]">
+                    <li><strong>Plano:</strong> Guía de trazo.</li>
+                    <li><strong>Corte:</strong> Cortador, tijeras, escariador.</li>
+                    <li><strong>Medición:</strong> Flexómetro, nivel, manguera.</li>
+                    <li><strong>Ajuste:</strong> Llaves, pinzas y desarmadores.</li>
+                </ul>
+                </div>
+
+
+                <!-- CARD 3 -->
+                <div class="p-6 rounded-[var(--border-radius-lg)] border border-gray-200 bg-white 
+                            shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)]
+                            transition-all duration-300 transform hover:-translate-y-1">
+
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)]
+                                flex items-center justify-center text-xl mr-3">
+                    <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="font-semibold text-[var(--color-blue-dark)]">
+                    Infraestructura
+                    </h3>
+                </div>
+
+                <ul class="space-y-2 text-sm text-[var(--color-text-muted)]">
+                    <li><strong>Muebles:</strong> WC, lavabo, regadera.</li>
+                    <li><strong>Control:</strong> Calentador y válvulas.</li>
+                    <li><strong>Desagüe:</strong> Céspol bote y tipo P.</li>
+                    <li><strong>Red:</strong> Tuberías y conexiones.</li>
+                </ul>
+                </div>
+
+
+                <!-- CARD 4 -->
+                <div class="p-6 rounded-[var(--border-radius-lg)] border border-gray-200 bg-white 
+                            shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)]
+                            transition-all duration-300 transform hover:-translate-y-1">
+
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 rounded-full bg-[rgba(164,198,57,0.15)] text-[var(--color-green-dark)]
+                                flex items-center justify-center text-xl mr-3">
+                    <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="font-semibold text-[var(--color-green-dark)]">
+                    Seguridad
+                    </h3>
+                </div>
+
+                <ul class="space-y-2 text-sm text-[var(--color-text-muted)]">
+                    <li><strong>Corporal:</strong> Ropa de algodón.</li>
+                    <li><strong>Protección:</strong> Botas, guantes y lentes.</li>
+                </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</transition>
 
 <!-- Módulos de Aprendizaje (Acordeón) -->
 <section class="py-12" style="background-color: transparent;">
@@ -193,6 +358,8 @@
 <!-- Script para Accordion -->
 <script setup>
 import { ref } from 'vue'
+
+const showModal = ref(false)
 
 const activeIndex = ref(0)
 
