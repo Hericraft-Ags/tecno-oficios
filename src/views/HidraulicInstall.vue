@@ -127,8 +127,8 @@
         </button>
 
         <!-- Contenido -->
-        <h2 class="text-xl font-bold mb-4 text-[var(--color-blue-dark)]">
-            Equipamiento y requerimientos:
+        <h2 class="text-xl font-bold mb-4 text-[var(--color-blue-dark)] text-center">
+            Equipamiento y requerimientos
         </h2>
 
         <div class="space-y-5">
@@ -148,21 +148,21 @@
                             transition-all duration-300 transform hover:-translate-y-1">
 
                 <div class="flex items-center mb-4">
-                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)]
+                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[#0000fe]
                                 flex items-center justify-center text-xl mr-3">
-                    <i class="fas fa-fire"></i>
+                    <i class="fas fa-droplet"></i>
                     </div>
-                    <h3 class="font-semibold text-[var(--color-blue-dark)]">
-                    Sistemas de unión
+                    <h3 class="font-semibold text-[#0000fe]">
+                    Sistemas de unión y consumibles
                     </h3>
                 </div>
 
                 <ul class="space-y-2 text-sm text-[var(--color-text-muted)]">
-                    <li><strong>Soldadura:</strong> Soplete, gas, soldadura y fundente.</li>
-                    <li><strong>Químicos:</strong> Pegamento PVC/CPVC y limpiador.</li>
-                    <li><strong>Termofusión:</strong> Dados.</li>
+                    <li><strong>Soldadura de gas:</strong> Soplete, gas butano/propano, soldadura (50-50 y 95-5) y pasta fundente.</li>
+                    <li><strong>Sistemas químicos:</strong> Pegamento para PVC/CPVC y limpiador.</li>
+                    <li><strong>Sistema de termofusión:</strong> Dados de diferentes diámetros.</li>
                     <li><strong>Sellado:</strong> Cinta teflón.</li>
-                    <li><strong>Limpieza:</strong> Lija y estopa.</li>
+                    <li><strong>Limpieza técnica:</strong> Lija de esmeril y estopa.</li>
                 </ul>
                 </div>
 
@@ -173,20 +173,20 @@
                             transition-all duration-300 transform hover:-translate-y-1">
 
                 <div class="flex items-center mb-4">
-                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)]
+                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[#021980]
                                 flex items-center justify-center text-xl mr-3">
-                    <i class="fas fa-tools"></i>
+                    <i class="fas fa-pen-ruler"></i>
                     </div>
-                    <h3 class="font-semibold text-[var(--color-blue-dark)]">
-                    Herramientas
+                    <h3 class="font-semibold text-[#021980]">
+                    Herramientas de precisión e interpretación
                     </h3>
                 </div>
 
                 <ul class="space-y-2 text-sm text-[var(--color-text-muted)]">
-                    <li><strong>Plano:</strong> Guía de trazo.</li>
-                    <li><strong>Corte:</strong> Cortador, tijeras, escariador.</li>
-                    <li><strong>Medición:</strong> Flexómetro, nivel, manguera.</li>
-                    <li><strong>Ajuste:</strong> Llaves, pinzas y desarmadores.</li>
+                    <li><strong>Plano isométrico del proyecto:</strong> Guía de trazo y ensamble.</li>
+                    <li><strong>Corte y preparación:</strong> Cortador de tubo (cobre/CPVC), tijeras para tubo de plástico y escariador.</li>
+                    <li><strong>Medición y nivelación:</strong> Flexómetro (5m), nivel de gota (12”), tira-líneas y manguera de nivel.</li>
+                    <li><strong>Ajuste y montaje:</strong> Juego de llaves (ajustables y de presión), llaves de extensión, pinzas de chofer y juego de desarmadores (plano y cruz).</li>
                 </ul>
                 </div>
 
@@ -197,20 +197,20 @@
                             transition-all duration-300 transform hover:-translate-y-1">
 
                 <div class="flex items-center mb-4">
-                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[var(--color-blue)]
+                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[#39aa35]
                                 flex items-center justify-center text-xl mr-3">
-                    <i class="fas fa-network-wired"></i>
+                    <i class="fas fa-shower"></i>
                     </div>
-                    <h3 class="font-semibold text-[var(--color-blue-dark)]">
-                    Infraestructura
+                    <h3 class="font-semibold text-[#39aa35]">
+                    Infraestructura, muebles y equipos
                     </h3>
                 </div>
 
                 <ul class="space-y-2 text-sm text-[var(--color-text-muted)]">
-                    <li><strong>Muebles:</strong> WC, lavabo, regadera.</li>
-                    <li><strong>Control:</strong> Calentador y válvulas.</li>
-                    <li><strong>Desagüe:</strong> Céspol bote y tipo P.</li>
-                    <li><strong>Red:</strong> Tuberías y conexiones.</li>
+                    <li><strong>Muebles sanitarios:</strong> WC (taza y tanque), lavabo y regadera.</li>
+                    <li><strong>Equipos de control:</strong> Calentador de agua (20L), válvulas de paso y válvulas de empotrar.</li>
+                    <li><strong>Accesorios de desagüe:</strong> Céspol tipo Bote y Céspol tipo P.</li>
+                    <li><strong>Conexiones de red:</strong> Tuberías, conexiones y conectores (Cobre, PVC, CPVC, PPR).</li>
                 </ul>
                 </div>
 
@@ -221,18 +221,18 @@
                             transition-all duration-300 transform hover:-translate-y-1">
 
                 <div class="flex items-center mb-4">
-                    <div class="w-12 h-12 rounded-full bg-[rgba(164,198,57,0.15)] text-[var(--color-green-dark)]
+                    <div class="w-12 h-12 rounded-full bg-[rgba(44,110,158,0.1)] text-[#93c020]
                                 flex items-center justify-center text-xl mr-3">
-                    <i class="fas fa-shield-alt"></i>
+                    <i class="fas fa-hard-hat"></i>
                     </div>
-                    <h3 class="font-semibold text-[var(--color-green-dark)]">
-                    Seguridad
+                    <h3 class="font-semibold text-[#93c020]">
+                    Seguridad y protección personal
                     </h3>
                 </div>
 
                 <ul class="space-y-2 text-sm text-[var(--color-text-muted)]">
-                    <li><strong>Corporal:</strong> Ropa de algodón.</li>
-                    <li><strong>Protección:</strong> Botas, guantes y lentes.</li>
+                    <li><strong>Protección corporal:</strong> Camisola y pantalón de algodón (resistencia térmica).</li>
+                    <li><strong>Protección crítica:</strong> Botas de seguridad (calzado industrial), guantes y lentes de protección.</li>
                 </ul>
                 </div>
 
