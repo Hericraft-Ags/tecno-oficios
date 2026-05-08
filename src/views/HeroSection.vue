@@ -114,10 +114,14 @@
     
     <h2 
       data-aos="fade-down" 
-      class="text-center text-[2.5rem] mb-16"
+      class="text-center text-[2.5rem] mb-10"
     >
       Tu camino hacia la Certificación
     </h2>
+
+    <h3 class="text-[1.4rem] text-[var(--color-text-muted)] text-center mb-16">
+      Con Tecno Oficios no solo tomas un curso, recorres un camino diseñado por expertos para que obtengas tu Certificaciòn de Competencia Laboral.
+    </h3>
     
     <div class="flex flex-col gap-10 max-w-[800px] mx-auto pl-[10px]">
       
@@ -134,12 +138,22 @@
         </div>
 
         <div class="card-glass p-8 rounded-[var(--border-radius-lg)] flex-grow transform transition-all duration-300 ease-out hover:translate-x-5">
-          <h3 class="text-[1.4rem]">
-            Teoría y Simuladores (Online)
-          </h3>
+          <div class="flex items-center gap-3">
+
+            <img 
+              src="../assets/iconos-01.png" 
+              alt="Icono de laptop con un libro"
+              class="w-20 h-auto object-contain"
+            >
+
+            <h3 class="text-[1.4rem] text-[#021980] mt-5">
+              Teoría y Simuladores (Online)
+            </h3>
+
+          </div>
 
           <p class="text-[var(--color-text-muted)] mt-2 text-[1.1rem]">
-            Aprende los fundamentos a tu propio ritmo mediante nuestra plataforma y practica con simuladores técnicos especializados.
+            Aprende a tu ritmo con lecciones interactivas, videos técnicos y simuladores que recrean los desafíos reales de tu oficio.
           </p>
         </div>
       </div>
@@ -157,12 +171,22 @@
         </div>
 
         <div class="card-glass p-8 rounded-[var(--border-radius-lg)] flex-grow transform transition-all duration-300 ease-out hover:translate-x-5">
-          <h3 class="text-[1.4rem]">
-            Examen Diagnóstico (Online)
-          </h3>
+          <div class="flex items-center gap-3">
+
+            <img 
+              src="../assets/iconos-02.png" 
+              alt="Icono de examen siendo revisado"
+              class="w-20 h-auto object-contain"
+            >
+
+            <h3 class="text-[1.4rem] text-[#021980] mt-5">
+              Entrenamiento y Validación (Diagnóstico)
+            </h3>
+
+          </div>
 
           <p class="text-[var(--color-text-muted)] mt-2 text-[1.1rem]">
-            Evalúa tus conocimientos teóricos antes de presentarte a la prueba práctica, garantizando que estás listo para aprobar sin sorpresas.
+            Pon a prueba tus conocimientos con nuestro simulador de examen. Identificamos tus fortalezas y reforzamos lo que te falta para asegurar tu aprobación.
           </p>
         </div>
       </div>
@@ -178,12 +202,22 @@
         </div>
 
         <div class="card-glass p-8 rounded-[var(--border-radius-lg)] flex-grow border-2 border-[var(--color-green)] transform transition-all duration-300 ease-out hover:translate-x-5">
-          <h3 class="text-[var(--color-green-dark)] text-[1.4rem]">
-            Evaluación y Certificación (Presencial)
-          </h3>
+          <div class="flex items-center gap-3">
+
+            <img 
+              src="../assets/iconos-03.png" 
+              alt="Simulador"
+              class="w-20 h-auto object-contain"
+            >
+
+            <h3 class="text-[1.4rem] text-[var(--color-green-dark)] mt-5">
+              Evaluación de competencia (Presencial / Certificación)
+            </h3>
+
+          </div>
 
           <p class="text-[var(--color-text-muted)] mt-2 text-[1.1rem]">
-            Demuestra tus habilidades en un centro evaluador equipado y obtén tu certificado oficial RED-CONOCER con validez nacional.
+            Demuestra tu destreza ante un evaluador certificado en nuestros centros aliados. Obtén tu certificado con validez nacional emitido por la RED-CONOCER.
           </p>
         </div>
       </div>
