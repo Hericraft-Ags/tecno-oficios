@@ -240,7 +240,7 @@
         badge="Alineado a RED-CONOCER (EC0324)"
         title="Instalación de la red hidráulica y sanitaria"
         includes="Simulador interactivo incluido"
-        image="https://imgs.search.brave.com/4EXu7MHQM_ojg8zEqemgunYduLkZrE3h8cUFTL3zXt8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Y3Vyc29zYXVsYTIx/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wNC9BZG9i/ZVN0b2NrXzEyMjA5/MjY3OC1lMTU1NDEx/MjY5MTU1Ni5qcGVn"
+        image="/images/hidraulic-course.png"
         link="/hidraulic-course"
       />
     </div>
