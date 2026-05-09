@@ -21,23 +21,23 @@
         </h2>
 
         <p class="text-[var(--color-text-muted)] mb-6 leading-relaxed">
-          Nuestra metodología se basa en la práctica constante. A través de simuladores
-          interactivos, el estudiante adquiere experiencia real antes de enfrentarse a
-          escenarios físicos.
+          Nuestra metodología se basa en la exposición constante a retos técnicos. A través 
+          de simuladores interactivos, el estudiante desarrolla la <strong class="text-[#39aa35]">agilidad mental y el criterio 
+          técnico</strong> necesarios para dominar los procesos antes de ejecutarlos en escenarios físicos.
         </p>
 
         <ul class="space-y-3">
           <li class="flex items-start gap-3">
             <span class="text-[var(--color-green)]">✔</span>
-            <span>Simulación técnica en entornos virtuales</span>
+            <span><strong class="text-[#39aa35]">Simulación técnica de escenarios: </strong>Resolución de casos reales en entornos virtuales seguros.</span>
           </li>
           <li class="flex items-start gap-3">
             <span class="text-[var(--color-green)]">✔</span>
-            <span>Evaluación continua con feedback inmediato</span>
+            <span><strong class="text-[#39aa35]">Feedback inmediato: </strong>Corrección de errores en tiempo real para un aprendizaje basado en las mejores prácticas.</span>
           </li>
           <li class="flex items-start gap-3">
             <span class="text-[var(--color-green)]">✔</span>
-            <span>Preparación para certificación oficial</span>
+            <span><strong class="text-[#39aa35]">Ruta a la certificación oficial: </strong>Preparación integral alineada a los estándares de la RED-CONOCER.</span>
           </li>
         </ul>
       </div>
