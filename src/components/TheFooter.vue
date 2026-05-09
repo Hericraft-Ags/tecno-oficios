@@ -1,12 +1,16 @@
 <template>
 <footer class="footer">
     <div class="container">
-        <div class="footer-grid">
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-20 mb-12">
             <!-- Columna 1 -->
             <div>
                 <h3 class="footer-heading">Sobre TecnOficios Lab</h3>
                 <p style="color: rgba(255, 255, 255, 0.8); line-height: 1.6;">
-                    Somos una academia técnica de alto nivel especializada en la capacitación híbrida mediante simuladores interactivos, preparando a nuestros estudiantes para certificaciones RED-CONOCER.
+                    Somos la academia técnica en <strong class="text-[var(--color-white)]">formación híbrida de alto nivel</strong>. Especializamos a nuestros 
+                    estudiantes mediante simuladores interactivos, diseñados para fortalecer el <strong class="text-[var(--color-white)]">criterio 
+                    técnico</strong> y la <strong class="text-[var(--color-white)]">toma de decisiones</strong>. Nuestro ecosistema de aprendizaje garantiza una 
+                    preparación integral para obtener certificaciones oficiales de la <strong class="text-[var(--color-white)]">RED-CONOCER</strong>, 
+                    impulsando tu perfil hacia los estándares de calidad que la industria exige.
                 </p>
             </div>
             
