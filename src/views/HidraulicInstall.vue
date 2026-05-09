@@ -380,15 +380,17 @@
                 </div>
                 
                 <h2 style="font-size: 2.5rem; color: var(--color-blue-dark); margin-bottom: 1.5rem;">
-                    Experiencia Lab (SCORM)
+                    Experiencia virtual TecnOficios
                 </h2>
                 
                 <p style="font-size: 1.25rem; color: var(--color-text-main); max-width: 800px; margin: 0 auto 2.5rem; line-height: 1.8;">
-                    Nuestros simuladores interactivos logran cubrir el equivalente a <strong style="color: var(--color-green-dark); font-size: 1.3rem;">400 horas de experiencia práctica</strong> requeridas por la industria. Mediante la inmersión virtual intensiva, te enfrentarás a escenarios técnicos complejos sin riesgos materiales, cimentando la memoria muscular y la toma de decisiones <em>antes</em> de tocar una herramienta real en tu evaluación física.
+                    Nuestros simuladores técnicos logran condensar el aprendizaje de <strong class="text-[#39aa35]">escenarios reales requeridos por la industria</strong>. A través de una 
+                    metodología interactiva, te enfrentarás a retos técnicos complejos <strong class="text-[#39aa35]">sin riesgos materiales</strong>, fortaleciendo tu capacidad de diagnóstico 
+                    y la correcta toma de decisiones <em>antes</em> de presentarte a tu evaluación física presencial.
                 </p>
                 
                 <a href="#" onclick="event.preventDefault(); window.location.href=atob('aHR0cHM6Ly9tb29kbGUudGVjbm9vZmljaW9zLmNvbQ==');" class="btn-primary btn-glow-pulse" style="font-size: 1.2rem; padding: 1.2rem 2.5rem; display: inline-flex; align-items: center; font-weight: 700;">
-                    <i class="fas fa-play-circle" style="margin-right: 10px; font-size: 1.5rem;"></i> Comenzar Módulos Simulados
+                    <i class="fas fa-play-circle" style="margin-right: 10px; font-size: 1.5rem;"></i> Iniciar práctica interactiva
                 </a>
             </div>
         </div>
