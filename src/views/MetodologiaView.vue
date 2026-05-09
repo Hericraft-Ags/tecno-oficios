@@ -80,11 +80,11 @@
           </div>
 
           <h3 class="text-xl font-semibold mb-2 text-center">
-            Aprendizaje Digital
+            Aprendizaje interactivo
           </h3>
 
-          <p class="text-[var(--color-text-muted)] text-left">
-            Accede a contenido interactivo y módulos SCORM desde cualquier lugar.
+          <p class="text-[var(--color-text-muted)] text-center">
+            Accede a contenido dinámico y lecciones técnicas diseñadas por expertos, desde cualquier lugar.
           </p>
         </div>
 
@@ -98,14 +98,14 @@
                     bg-white text-center">
 
           <div class="text-4xl mb-4 text-[var(--color-green)] flex justify-center">
-            <i class="fas fa-vr-cardboard mb-1"></i>
+            <i class="fas fa-gears mb-1"></i>
           </div>
 
           <h3 class="text-xl font-semibold mb-2 text-center">
             Simulación Técnica
           </h3>
 
-          <p class="text-[var(--color-text-muted)] text-left">
+          <p class="text-[var(--color-text-muted)] text-center">
             Practica en entornos virtuales que replican situaciones reales de trabajo.
           </p>
         </div>
@@ -127,7 +127,7 @@
             Evaluación Presencial
           </h3>
 
-          <p class="text-[var(--color-text-muted)] text-left">
+          <p class="text-[var(--color-text-muted)] text-center">
             Demuestra tus habilidades en un entorno controlado para certificación.
           </p>
         </div>
