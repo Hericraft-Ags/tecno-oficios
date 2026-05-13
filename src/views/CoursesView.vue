@@ -34,42 +34,42 @@ const courses = [
     badge: "Alineado a CONOCER",
     title: "Hidráulica Industrial",
     includes: "Simulador interactivo + prácticas reales",
-    image: "/img/hidraulica.jpg",
+    image: "/images/proximamente.png",
     link: "/courses/hidraulica"
   },
   {
     badge: "Certificación Profesional",
     title: "Neumática Aplicada",
     includes: "Laboratorio virtual + evaluación técnica",
-    image: "/img/neumatica.jpg",
+    image: "/images/proximamente.png",
     link: "/courses/neumatica"
   },
   {
     badge: "Alta Demanda",
     title: "Electricidad Industrial",
     includes: "Simulación + casos reales",
-    image: "/img/electricidad.jpg",
+    image: "/images/proximamente.png",
     link: "/courses/electricidad"
   },
   {
     badge: "Especialización",
     title: "PLC y Automatización",
     includes: "Programación + simuladores SCADA",
-    image: "/img/plc.jpg",
+    image: "/images/proximamente.png",
     link: "/courses/plc"
   },
   {
     badge: "Certificación Técnica",
     title: "Mantenimiento Industrial",
     includes: "Diagnóstico + prácticas guiadas",
-    image: "/img/mantenimiento.jpg",
+    image: "/images/proximamente.png",
     link: "/courses/mantenimiento"
   },
   {
     badge: "Nuevo",
     title: "Energías Renovables",
     includes: "Simulación de sistemas solares",
-    image: "/img/energia.jpg",
+    image: "/images/proximamente.png",
     link: "/courses/energia"
   }
 ]
