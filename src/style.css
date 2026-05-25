@@ -190,7 +190,7 @@ a {
 
 /* Footer */
 .footer {
-  background-color: var(--color-blue);
+  background-color: var(--color-blue-dark);
   color: var(--color-white);
   padding: 4rem 0 2rem;
   margin-top: 4rem;
