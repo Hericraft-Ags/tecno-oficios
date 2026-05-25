@@ -50,15 +50,15 @@
                 <h4 style="margin-top: 2.5rem; margin-bottom: 1rem; color: var(--color-blue-dark); font-size: 1.2rem; margin-bottom: 1.5rem; border-bottom: 1px solid rgba(44, 110, 158, 0.2);">Perfil del estudiante</h4>
                 <ul style="list-style: none; padding: 0; color: var(--color-text-main);">
                     <li style="margin-bottom: 1.2rem; display: flex; align-items: center; font-size: 1.1rem;">
-                        <i class="fas fa-clock" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem;"></i>
+                        <i class="fas fa-check-circle" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem;"></i>
                         <span><strong>Técnicos y plomeros:</strong> Que buscan certificar su experiencia con un documento oficial de la RED-CONOCER.</span>
                     </li>
                     <li style="margin-bottom: 1.2rem; display: flex; align-items: center; font-size: 1.1rem;">
-                        <i class="fas fa-layer-group" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem;"></i>
+                        <i class="fas fa-check-circle" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem;"></i>
                         <span><strong>Personal de mantenimiento:</strong> Interesados en actualizarse en nuevas tecnologías (PPR/Termofusión).</span>
                     </li>
                     <li style="margin-bottom: 1.2rem; display: flex; align-items: flex-start; font-size: 1.1rem;">
-                        <i class="fas fa-check-square" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem; margin-top: 3px;"></i>
+                        <i class="fas fa-check-circle" style="color: var(--color-green); margin-right: 15px; font-size: 1.3rem; margin-top: 3px;"></i>
                         <span><strong>Público en general:</strong> Entusiastas que desean aprender desde cero con bases de ingeniería y normatividad nacional para proyectos propios o emprendimiento.</span>
                     </li>
                 </ul>
@@ -77,8 +77,8 @@
             <!-- Perfil de Egreso -->
             <div data-aos="fade-left" data-aos-delay="200" style="display: flex; flex-direction: column; justify-content: center;">
                 <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem; color: var(--color-blue-dark);">Perfil de Egreso</h3>
-                <p style="font-size: 1.2rem; color: var(--color-text-muted); line-height: 1.8; margin-bottom: 2rem;">
-                    Al finalizar tu formación en <strong class="text-[#021980]">TecnoOficios</strong>, serás un profesional técnico capaz de transformar un <strong class="text-[#021980]">diseño 
+                <p style="font-size: 1.2rem; color: var(--color-text-muted); line-height: 1.8; margin-bottom: 2rem; text-align: justify;">
+                    Al finalizar tu formación en <strong class="text-[#021980]">TecnOficios</strong>, serás un profesional técnico capaz de transformar un <strong class="text-[#021980]">diseño 
                     isométrico</strong> en una realidad operativa. Dominarás con precisión el <strong class="text-[#021980]">habilitado de tuberías</strong> en diversos materiales 
                     y ejecutarás <strong class="text-[#021980]">instalaciones hidrosanitarias</strong> de alta calidad, garantizando la <strong class="text-[#021980]">hermeticidad del sistema</strong> mediante <strong class="text-[#021980]">pruebas técnicas oficiales</strong>. 
                     Estarás plenamente preparado para obtener tu <strong class="text-[#021980]">certificación</strong> ante la <strong class="text-[#021980]">RED-CONOCER.</strong>
@@ -278,7 +278,7 @@
                         calcular presiones y caudales, e identificar los materiales correctos para asegurar que tu proyecto nazca con bases sólidas bajo el estándar EC0324.</p>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Sistemas hidrosanitarios: Diferencias clave entre redes de presión y de gravedad.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Sistemas hidrosanitarios</strong>: Diferencias clave entre redes de presión y de gravedad.</span></li>
                                 <li><i class="fas fa-check-circle"></i> <span>Lectura de planos e isométricos: Interpretación experta de planos y simbología técnica.</span></li>
                                 <li><i class="fas fa-check-circle"></i> <span>Física del agua: Controla la presión y el caudal para evitar fallas críticas en la instalación.</span></li>
                             </ul>
@@ -314,7 +314,7 @@
                     <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Habilitar los materiales y herramientas necesarios para la instalación, aplicando técnicas de corte y unión con precisión y seguridad, bajo los estándares de calidad del EC0324.</p>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>La armadura del técnico: Selección y uso correcto del EPP para riesgos químicos y térmicos.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>La armadura del técnico</strong>: Selección y uso correcto del EPP para riesgos químicos y térmicos.</span></li>
                                 <li><i class="fas fa-check-circle"></i> <span>Diagnóstico de herramientas: Inspección y calibración de cortadores, niveles y dados de termofusión.</span></li>
                                 <li><i class="fas fa-check-circle"></i> <span>Arte del habilitado: Técnicas de corte y escariado para asegurar diámetros perfectos.</span></li>
                             </ul>
@@ -352,7 +352,7 @@
                             <ul class="module-list mt-0">
                                 <li><i class="fas fa-check-circle"></i> <span>Montaje maestro: Fijación técnica de tuberías y respeto crítico a las pendientes sanitarias.</span></li>
                                 <li><i class="fas fa-check-circle"></i> <span>Instalación de muebles: Montaje y sellado profesional de WC, lavabos y regaderas.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Conexión de equipos: Instalación segura de calentadores y válvulas de alivio.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Conexión de equipos</strong>: Instalación segura de calentadores y válvulas de alivio.</span></li>
                             </ul>
                             <ul class="module-list mt-0">
                                 <li><i class="fas fa-check-circle"></i> <span>Momento de la verdad: Pruebas de hermeticidad y estanqueidad para certificar cero fugas.</span></li>

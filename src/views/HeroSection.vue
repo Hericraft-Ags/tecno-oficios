@@ -120,7 +120,7 @@
     </h2>
 
     <h3 class="text-[1.4rem] text-[var(--color-text-muted)] text-center mb-16">
-      Con Tecno Oficios no solo tomas un curso, recorres un camino diseñado por expertos para que obtengas tu Certificaciòn de Competencia Laboral.
+      En TecnOficios no solo tomas un curso, recorres un camino diseñado por expertos para que obtengas tu Certificación de Competencia Laboral.
     </h3>
     
     <div class="flex flex-col gap-10 max-w-[800px] mx-auto pl-[10px]">
