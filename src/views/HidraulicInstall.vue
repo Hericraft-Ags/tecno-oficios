@@ -279,12 +279,12 @@
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
                                 <li><i class="fas fa-check-circle"></i> <span><strong>Sistemas hidrosanitarios</strong>: Diferencias clave entre redes de presión y de gravedad.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Lectura de planos e isométricos: Interpretación experta de planos y simbología técnica.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Física del agua: Controla la presión y el caudal para evitar fallas críticas en la instalación.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Lectura de planos e isométricos</strong>: Interpretación experta de planos y simbología técnica.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Física del agua</strong>: Controla la presión y el caudal para evitar fallas críticas en la instalación.</span></li>
                             </ul>
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Selección de materiales: Identifica el tubo y la conexión ideal (Cobre, CPVC, PVC, PPR) según la normativa.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Trazo y medición: Aprende a realizar levantamientos precisos y listas de materiales sin desperdicios.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Selección de materiales</strong>: Identifica el tubo y la conexión ideal (Cobre, CPVC, PVC, PPR) según la normativa.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Trazo y medición</strong>: Aprende a realizar levantamientos precisos y listas de materiales sin desperdicios.</span></li>
                             </ul>
                         </div>
                     </div>
@@ -315,12 +315,12 @@
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
                                 <li><i class="fas fa-check-circle"></i> <span><strong>La armadura del técnico</strong>: Selección y uso correcto del EPP para riesgos químicos y térmicos.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Diagnóstico de herramientas: Inspección y calibración de cortadores, niveles y dados de termofusión.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Arte del habilitado: Técnicas de corte y escariado para asegurar diámetros perfectos.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Diagnóstico de herramientas</strong>: Inspección y calibración de cortadores, niveles y dados de termofusión.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Arte del habilitado</strong>: Técnicas de corte y escariado para asegurar diámetros perfectos.</span></li>
                             </ul>
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Maestría en uniones: Dominio experto de soldadura, cementado y termofusión.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Orden y residuos: Gestión profesional del área de trabajo y disposición de sobrantes.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Maestría en uniones</strong>: Dominio experto de soldadura, cementado y termofusión.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Orden y residuos</strong>: Gestión profesional del área de trabajo y disposición de sobrantes.</span></li>
                             </ul>
                         </div>
                     </div>
@@ -350,14 +350,14 @@
                     <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Integrar la red hidrosanitaria y fijar los muebles de baño siguiendo el diseño isométrico, ejecutando pruebas de hermeticidad que garanticen una instalación técnica sin fugas ni errores.</p>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Montaje maestro: Fijación técnica de tuberías y respeto crítico a las pendientes sanitarias.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Instalación de muebles: Montaje y sellado profesional de WC, lavabos y regaderas.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Montaje maestro</strong>: Fijación técnica de tuberías y respeto crítico a las pendientes sanitarias.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Instalación de muebles</strong>: Montaje y sellado profesional de WC, lavabos y regaderas.</span></li>
                                 <li><i class="fas fa-check-circle"></i> <span><strong>Conexión de equipos</strong>: Instalación segura de calentadores y válvulas de alivio.</span></li>
                             </ul>
                             <ul class="module-list mt-0">
-                                <li><i class="fas fa-check-circle"></i> <span>Momento de la verdad: Pruebas de hermeticidad y estanqueidad para certificar cero fugas.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Entrega profesional: Elaboración de reportes técnicos y limpieza final de la obra.</span></li>
-                                <li><i class="fas fa-check-circle"></i> <span>Simulador de certificación: Para obtener el pase a la evaluación real, el alumno debe completar una Misión Integradora.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Momento de la verdad</strong>: Pruebas de hermeticidad y estanqueidad para certificar cero fugas.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Entrega profesional</strong>: Elaboración de reportes técnicos y limpieza final de la obra.</span></li>
+                                <li><i class="fas fa-check-circle"></i> <span><strong>Simulador de certificación</strong>: Para obtener el pase a la evaluación real, el alumno debe completar una Misión Integradora.</span></li>
                             </ul>
                         </div>
                     </div>
