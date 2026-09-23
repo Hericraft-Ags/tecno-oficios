@@ -49,7 +49,7 @@
     >
       <div class="monitor-screen relative overflow-hidden rounded-[var(--border-radius-lg)]">
 
-        <iframe class="w-full h-full" src="https://www.youtube.com/embed/dxqMJ4SGYCc?si=dKfcC0xM1wAMYR5B"
+        <iframe class="w-full h-full" src="https://player.vimeo.com/video/1229631895?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
