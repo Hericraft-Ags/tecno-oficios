@@ -49,12 +49,7 @@
     >
       <div class="monitor-screen relative overflow-hidden rounded-[var(--border-radius-lg)]">
 
-        <iframe class="w-full h-full" src="https://player.vimeo.com/video/1229631895?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
+        <iframe class="w-full h-full" src="https://player.vimeo.com/video/1229631895?h=107603d99f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Introducción_Red_Hidraulica_y_sanitaria_H"></iframe>
 
       </div>
     </div>
